@@ -4,7 +4,7 @@
 
 Projeto desenvolvido para praticar as tecnologias estudadas.
 
-[preview](./.github/preview.png)
+![preview](./.github/preview.png)
 
 [Clique aqui para visualizar](https://milenarendt.github.io/propaganda-iphone)
 
