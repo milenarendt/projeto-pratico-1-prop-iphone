@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* body {
+    font-family: 'Heebo', sans-serif;
+    line-height: 47px;
+}
+
+body {
+    background-color: #1C1C1C;
+    background-size: 100% auto;
+}
+
+main {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    gap: 77px;
+
+    animation: fromBottom .6s backwards;
+}
+
+.text { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 80px;
+
+    position: static;
+    width: 500px;
+    height: 685px;
+   
+    margin: 137px auto 137px 253px;
+}
+
+main div button {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #0066FF;
+    
+    position: static;
+    width: 380px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    border: 1px solid  #0066FF;
+    border-radius: 10px;
+    color: white;
+
+    transition: transform .6s;
+}
+
+main div button:hover {
+    transform: scale(1.1);
+}
+
+main div h1 {
+    font-size: 70px;
+    font-weight: 700px;
+
+    background-image: linear-gradient(92.35deg, #5FD8FF 0.39%, #9969FF 51.21%, #FF4B4B 102.04%);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    margin-top: 77px;
+}
+
+main div p {
+    color: #666666;
+    font-size: 30px;
+    font-weight: 590;
+
+    margin-top: 24px;
+}
+
+main div svg {
+    margin-top: 60px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: static;
+    width: 900px;
+    height: 851px; 
+
+    margin: 54px 99px 54px auto;
+}
+
+.image-1 {
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+
+    width: 375px;
+    height: auto;
+}
+
+.image-2 {
+    position: absolute;
+    z-index: 2;
+    left: 1080px; 
+   
+    width: 413px;
+    height: auto;
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
